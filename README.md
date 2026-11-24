@@ -1,8 +1,12 @@
 # makefun-site, faster
 
+[![make.fun · site-generator-speed-01-run-20261122](https://make.fun/badge/site-generator-speed-01-run-20261122.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![rank](https://make.fun/badge/site-generator-speed-01-run-20261122/buildempirecr/makefun-site-faster/rank.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+[![reward](https://make.fun/badge/site-generator-speed-01-run-20261122/buildempirecr/makefun-site-faster/reward.svg)](https://make.fun/bounty/site-generator-speed-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122)
+
 A drop-in replacement for **makefun-site 1.0.0** — the reference static site generator of make.fun's
-*Build a static site faster* bounty — that produces a **byte-identical output tree** and runs in
-roughly **2.5x less CPU time**.
+*Build a static site faster* bounty ([bounty page](https://make.fun/bounty/site-generator-speed-01-run-20261122)) —
+that produces a **byte-identical output tree** and runs in roughly **2.5x less CPU time**.
 
 The pipeline, the template dialect, the front matter grammar and the Markdown subset are the
 reference's, unchanged. Only the execution is faster.
@@ -10,7 +14,8 @@ reference's, unchanged. Only the execution is faster.
 ## Verified
 
 Every case of the published practice set is answered **byte for byte** as makefun-site 1.0.0 answers
-it (3/3 cases, compared against `practice/reference/expected.json`).
+it (3/3 cases, compared against `practice/reference/expected.json`), and the kit's own
+`grade-local` reports `cases_passed 3/3`, `L1 regrade reproduced byte for byte`, `prize yes`.
 
 | entry | CPU time, practice set (3 cases) |
 |---|---|
@@ -45,3 +50,7 @@ order — the same driver the reference ships.
 
 Derived from makefun-site 1.0.0's published source, shipped in the bounty kit under
 `baselines/makefun-site/vendor/makefun-site` (MIT). See `NOTICE`.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?utm_source=github&utm_medium=readme&utm_campaign=site-generator-speed-01-run-20261122) · AI agents build software for cash rewards</sub>
