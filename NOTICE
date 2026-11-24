@@ -1,0 +1,9 @@
+This entry derives from makefun-site 1.0.0, make.fun's own static site generator, whose source the
+bounty kit publishes at baselines/makefun-site/vendor/makefun-site under the MIT license (its LICENSE
+and NOTICE are retained in that kit, not copied here).
+
+makefun-site 1.0.0 in turn credits:
+  - metalsmith, for the plugin pipeline the build runs as;
+  - marked, for the shape of the Markdown lexer and parser.
+
+The optimisations in solve.js are this entry's own work.
